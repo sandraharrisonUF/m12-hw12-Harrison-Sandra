@@ -15,16 +15,15 @@ body {
 
 .body__container {
   display: grid;
-  grid-template-columns: repeat(5, 120px);
-  grid-template-rows: repeat(4, 120px);
+  grid-template-columns: repeat(9, 120px);
+  grid-template-rows: repeat(10, 120px);
 }
 
 .header {
   background-color: var(--primary);
   color: var(--white);
   text-align: center;
-  max-height: 100px;
-  grid-column: 1/6;
+  grid-column: 1/10;
   grid-row: 1/2;
 
 }
@@ -77,11 +76,15 @@ nav {
 
 .img_card__container {
   display: grid;
-  
+  padding: 10px;
+  margin-left: 25px;
+  max-height: 150px;
+  max-width: 100px;
+  grid-template-rows: auto;
 
 }
 .img_card {
-  width: 300px;
+  width: 200px;
   box-shadow: var(--gray) 4px 4px 10px 2px;
   border-radius: 3px;
 }
