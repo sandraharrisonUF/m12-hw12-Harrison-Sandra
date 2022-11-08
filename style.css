@@ -19,10 +19,9 @@ body {
   grid-auto-rows: auto;
   grid-auto-columns: auto;
   grid-template-areas: 
-  'header'
-  'nav'
-  '.img_card__container'
-  'footer';
+  'header header'
+  'nav main'
+  'footer footer';
 
 }
 .header {
@@ -130,7 +129,6 @@ nav {
     grid-template-areas: 
     'header'
     'nav'
-    '.img_card__container'
     'footer';
   }
   .header {
